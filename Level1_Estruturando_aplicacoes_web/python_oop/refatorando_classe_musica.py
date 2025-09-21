@@ -7,7 +7,6 @@ Sua tarefa é:
 3. Criar objetos da classe Musica com nome, artista e duração.
 4. Exibir os dados de cada música.
 '''
-
 class Musica:
     def __init__(self, nome, artista, duracao):
         self.nome = nome
