@@ -7,6 +7,7 @@ Sua tarefa é:
 3. Criar objetos da classe Musica com nome, artista e duração.
 4. Exibir os dados de cada música.
 '''
+
 class Musica:
     def __init__(self, nome, artista, duracao):
         self.nome = nome
@@ -19,3 +20,4 @@ musica3 = Musica("Clair de Lune", "Debussy", 300)
 
 for musica in [musica1, musica2, musica3]:
     print(f"{musica.nome} - {musica.artista} ({musica.duracao} segundos)")
+    
