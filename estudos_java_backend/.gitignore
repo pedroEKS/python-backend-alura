@@ -1,0 +1,21 @@
+# Arquivos compilados
+*.class
+
+# Pastas de build
+target/
+build/
+bin/
+
+# Arquivos de IDE (Eclipse, IntelliJ, VS Code)
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+base.txt
